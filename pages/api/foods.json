@@ -1,0 +1,59 @@
+{
+  "foods": [
+    {
+      "name": "Something Pizza",
+      "tags": ["italian", "pizza"],
+      "price": 10.5
+    },
+    {
+      "name": "Another Pizza",
+      "tags": ["italian", "pizza"],
+      "price": 12.5
+    },
+    {
+      "name": "Totally Different Pizza",
+      "tags": ["italian", "pizza"],
+      "price": 18
+    },
+    {
+      "name": "Penne something",
+      "tags": ["italian", "pasta"],
+      "price": 6.9
+    },
+    {
+      "name": "Spaghetti something",
+      "tags": ["italian", "pasta"],
+      "price": 8
+    },
+    {
+      "name": "Penne something but hot",
+      "tags": ["italian", "pasta"],
+      "price": 17.5
+    },
+    {
+      "name": "Lahmacun",
+      "tags": ["turkish", "kebab"],
+      "price": 5
+    },
+    {
+      "name": "Pide",
+      "tags": ["turkish", "kebab"],
+      "price": 10.5
+    },
+    {
+      "name": "French fries ",
+      "tags": ["extra", "potato"],
+      "price": 5
+    },
+    {
+      "name": "Coke",
+      "tags": ["beverage"],
+      "price": 3
+    },
+    {
+      "name": "Water",
+      "tags": ["beverage"],
+      "price": 1
+    }
+  ]
+  }
