@@ -1,59 +1,82 @@
 {
   "foods": [
     {
+      "product-id": "pi1",
       "name": "Something Pizza",
       "tags": ["italian", "pizza"],
       "price": 10.5
     },
     {
+      "product-id": "pi2",
       "name": "Another Pizza",
       "tags": ["italian", "pizza"],
       "price": 12.5
     },
     {
+      "product-id": "pi3",
       "name": "Totally Different Pizza",
       "tags": ["italian", "pizza"],
       "price": 18
     },
     {
+      "product-id": "pa1",
       "name": "Penne something",
       "tags": ["italian", "pasta"],
       "price": 6.9
     },
     {
+      "product-id": "pa2",
       "name": "Spaghetti something",
       "tags": ["italian", "pasta"],
       "price": 8
     },
     {
+      "product-id": "pa3",
       "name": "Penne something but hot",
       "tags": ["italian", "pasta"],
       "price": 17.5
     },
     {
+      "product-id": "kbp1",
       "name": "Lahmacun",
       "tags": ["turkish", "kebab"],
       "price": 5
     },
     {
+      "product-id": "kbp2",
       "name": "Pide",
       "tags": ["turkish", "kebab"],
       "price": 10.5
     },
     {
+      "product-id": "ext1",
       "name": "French fries ",
       "tags": ["extra", "potato"],
       "price": 5
     },
     {
+      "product-id": "bvr1",
+      "name": "Water",
+      "tags": ["beverage"],
+      "price": 1
+    },
+    {
+      "product-id": "bvr2",
       "name": "Coke",
       "tags": ["beverage"],
       "price": 3
     },
     {
-      "name": "Water",
+      "product-id": "bvr3",
+      "name": "Coffee",
       "tags": ["beverage"],
-      "price": 1
+      "price": 5
+    },
+    {
+      "product-id": "bvr24",
+      "name": "Tea",
+      "tags": ["beverage"],
+      "price": 2
     }
   ]
-  }
+}

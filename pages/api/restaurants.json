@@ -1,0 +1,31 @@
+{
+  "restaurants": [
+    {
+      "restaurant-id": "1",
+      "name": "Regular Italian Restaurant",
+      "desc": "Tomato, olive oil and green things",
+      "menu": ["pi1", "pi2", "pi3", "pa1", "pa2", "bvg1", "bvg2"],
+      "order-min-basket": 20,
+      "district": "foo district",
+      "stars": 4
+    },
+    {
+      "restaurant-id": "2",
+      "name": "Hot Kebab",
+      "desc": "Meat, meat, meat and ayran",
+      "menu": ["kbp1", "kbp2", "bvg1", "bvg2"],
+      "order-min-basket": 15,
+      "district": "bar district",
+      "stars": 5
+    },
+    {
+      "restaurant-id": "3",
+      "name": "Barbucks",
+      "desc": "Bring your laptops too",
+      "menu": ["bvg1", "bvg2", "bvg3", "bvg4", "bvg5"],
+      "order-min-basket": 15,
+      "district": "foo district",
+      "stars": 3
+    }
+  ]
+}
