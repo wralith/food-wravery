@@ -12,9 +12,9 @@ export default function MainSearchBar() {
 
   return (
     <section
-      className={`lg:w-1/2 flex flex-col gap-12 p-6 text-center bg-base-100/70 m-auto w-[90%] 
-      backdrop-blur-sm border border-gray-900/50 rounded-lg transition-all
-      ${focused ? "scale-105 subpixel-antialiased" : ""} `}
+      className="lg:w-1/2 flex flex-col gap-12 p-6 text-center bg-base-100/70 m-auto w-[90%] 
+      backdrop-blur-sm border border-gray-900/50 rounded-lg transition-all -z-10 subpixel-antialiased"
+      
     >
       {focused ? <div className="modal" /> : ""}
       <input

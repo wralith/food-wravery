@@ -14,7 +14,7 @@ import {
 export default function SideMenu() {
   return (
     <>
-      <div className="dropdown dropdown-right ml-[5%]">
+      <div className="dropdown dropdown-right ml-[5%] relative mb-5">
         <a
           tabIndex={0}
           className="btn btn-primary btn-outline text-xl bg-base-100/70 backdrop-blur-sm "

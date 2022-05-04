@@ -1,4 +1,5 @@
 .nav {
   @apply navbar w-[90%] m-auto p-3 px-5 my-5 border border-primary/50 rounded-xl
-  flex justify-between sticky top-0 transition-all bg-base-100/70 backdrop-blur-md;
+  flex justify-between sticky top-0 transition-all bg-base-100/70 backdrop-blur-md
+  z-10;
 }
