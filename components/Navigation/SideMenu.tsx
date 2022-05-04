@@ -9,9 +9,11 @@ import {
 } from "react-icons/md";
 
 // TODO need modal for background in mobile devices
-// TODO random restaurant on "Suprise Me"
+// TODO add dynamic restaurant number on randomRestaurant var
 
 export default function SideMenu() {
+  let randomRestaurant = Math.floor(Math.random() * 3 + 1)
+
   return (
     <>
       <div className="dropdown dropdown-right relative ml-[5%] mb-5">
@@ -26,7 +28,7 @@ export default function SideMenu() {
           className="dropdown-content menu rounded-box ml-2 w-52 bg-base-100 p-2 shadow"
         >
           <li>
-            <Link href="user/favorites">
+            <Link href="/user/favorites">
               <a>
                 <MdStar />
                 Favorites
@@ -34,7 +36,7 @@ export default function SideMenu() {
             </Link>
           </li>
           <li>
-            <Link href="user/offers">
+            <Link href="/user/offers">
               <a>
                 <MdLocalOffer />
                 Special Offers
@@ -42,7 +44,7 @@ export default function SideMenu() {
             </Link>
           </li>
           <li>
-            <Link href="restaurants">
+            <Link href="/restaurants">
               <a>
                 <MdRestaurant />
                 Restaurants
@@ -50,7 +52,7 @@ export default function SideMenu() {
             </Link>
           </li>
           <li>
-            <Link href="user/orders">
+            <Link href="/user/orders">
               <a>
                 <MdFastfood />
                 My Orders
@@ -58,7 +60,7 @@ export default function SideMenu() {
             </Link>
           </li>
           <li>
-            <Link href={`restaurants/${0}`}>
+            <Link href={`/restaurants/${randomRestaurant}`}>
               <a>
                 <MdHail />
                 Surprise Me!
