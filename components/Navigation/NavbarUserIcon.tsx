@@ -2,13 +2,13 @@ import { MdPerson } from "react-icons/md";
 
 export default function NavbarUserIcon() {
   return (
-    <div className="dropdown dropdown-end">
-      <label tabIndex={0} className="btn btn-ghost btn-circle avatar">
+    <div className="dropdown-end dropdown">
+      <label tabIndex={0} className="avatar btn btn-ghost btn-circle">
         <MdPerson className="text-2xl" />
       </label>
       <ul
         tabIndex={0}
-        className="menu menu-compact dropdown-content mt-6 p-2 shadow bg-base-100 rounded-box w-52"
+        className="dropdown-content menu rounded-box menu-compact mt-6 w-52 bg-base-100 p-2 shadow"
       >
         <li>
           <a className="justify-between">

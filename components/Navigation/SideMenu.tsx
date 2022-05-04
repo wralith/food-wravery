@@ -14,16 +14,16 @@ import {
 export default function SideMenu() {
   return (
     <>
-      <div className="dropdown dropdown-right ml-[5%] relative mb-5">
+      <div className="dropdown dropdown-right relative ml-[5%] mb-5">
         <a
           tabIndex={0}
-          className="btn btn-primary btn-outline text-xl bg-base-100/70 backdrop-blur-sm "
+          className="btn btn-outline btn-primary bg-base-100/70 text-xl backdrop-blur-sm "
         >
           <MdMenu />
         </a>
         <ul
           tabIndex={0}
-          className="dropdown-content menu p-2 shadow bg-base-100 rounded-box w-52 ml-2"
+          className="dropdown-content menu rounded-box ml-2 w-52 bg-base-100 p-2 shadow"
         >
           <li>
             <Link href="user/favorites">

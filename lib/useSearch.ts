@@ -5,8 +5,8 @@ const useSearch = (chars: string) => {
   let searchedFoodData: {}[] = [];
   const [searchInput, setSearchInput] = useState("");
   useEffect(() => {
-    setSearchInput(chars)
-  }, [chars])
+    setSearchInput(chars);
+  }, [chars]);
 
   if (searchInput !== "") {
     searchedFoodData = data.foods.filter((item) =>
@@ -16,7 +16,7 @@ const useSearch = (chars: string) => {
     searchedFoodData = [];
   }
 
-  return searchedFoodData
+  return searchedFoodData;
 };
 
 export default useSearch;
