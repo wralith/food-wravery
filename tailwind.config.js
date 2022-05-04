@@ -24,6 +24,8 @@ module.exports = {
           error: "#a64342",
         },
       },
+      "light",
+      "dark",
     ],
   },
   plugins: [require("daisyui")],
