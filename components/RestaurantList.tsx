@@ -11,7 +11,7 @@ const RestaurantList = () => {
 
   return (
     <div
-      className="m-auto flex w-[90%] flex-col gap-12 rounded-lg border border-gray-900/50 bg-base-100/70 
+      className="mx-auto flex w-[90%] flex-col gap-12 rounded-lg border border-gray-900/50 bg-base-100/70 
       p-6 text-center backdrop-blur-sm lg:w-1/2"
     >
       <ul className="flex flex-col gap-7 text-lg">

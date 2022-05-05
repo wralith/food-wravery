@@ -11,7 +11,7 @@ const Home: NextPage = () => {
         <title>Wravery 🚀</title>
       </Head>
       <Layout>
-        <div id="app" className="w-[95%] lg:w-1/2 flex flex-col justify-start gap-3 m-auto ">
+        <div id="app" className="w-[95%] lg:w-1/2 flex flex-col justify-start gap-3 m-auto mb-10 ">
           <MainSearchBar />
           <div className="flex flex-col gap-5 lg:flex-row flex-wrap justify-center">
           <RestaurantCard product="burger" />
