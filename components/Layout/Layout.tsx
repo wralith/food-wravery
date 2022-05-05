@@ -6,7 +6,7 @@ import Footer from "../UI/Footer";
 export default function Layout({ children }: { children: ReactNode }) {
   return (
     <>
-      <main className="min-h-full">
+      <main>
         <Navbar />
         <SideMenu />
         {children}

@@ -12,9 +12,8 @@ export default function MainSearchBar() {
 
   return (
     <section
-      className="lg:w-1/2 flex flex-col gap-12 p-6 text-center bg-base-100/70 m-auto w-[90%] 
-      backdrop-blur-sm border border-gray-900/50 rounded-lg transition-all -z-10 subpixel-antialiased"
-      
+      className="m-auto flex w-full flex-col gap-12 rounded-lg border border-gray-900/50 
+      bg-base-100/70 p-6 text-center subpixel-antialiased backdrop-blur-sm transition-all"
     >
       {focused ? <div className="modal" /> : ""}
       <input
@@ -28,7 +27,7 @@ export default function MainSearchBar() {
       <ul className="flex flex-col gap-2">
         {searchResults.map((food: any) => (
           <li
-            className="flex flex-row justify-between text-primary pb-3"
+            className="flex flex-row justify-between pb-3 text-primary"
             key={food.name}
           >
             {food.name} <span className="text-accent">{food.price}$</span>

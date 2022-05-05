@@ -3,7 +3,7 @@ import { VscGithubInverted, VscTwitter } from "react-icons/vsc";
 
 const Footer = () => {
   return (
-    <footer className="footer absolute bottom-0 bg-base-300 p-4 text-base-content">
+    <footer className="footer mt-auto bg-base-300 p-4 text-base-content mt-10">
       <div className="flex w-full flex-row justify-evenly items-center">
         <Link href="/">
           <a className="hover:text-primary">

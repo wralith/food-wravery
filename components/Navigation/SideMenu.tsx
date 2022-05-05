@@ -15,8 +15,8 @@ export default function SideMenu() {
   let randomRestaurant = Math.floor(Math.random() * 3 + 1)
 
   return (
-    <>
-      <div className="dropdown dropdown-right relative ml-[5%] mb-5">
+    <nav>
+      <div className="dropdown dropdown-right relative ml-[2.5%] mb-5">
         <a
           tabIndex={0}
           className="btn btn-outline btn-primary bg-base-100/70 text-xl backdrop-blur-sm "
@@ -69,6 +69,6 @@ export default function SideMenu() {
           </li>
         </ul>
       </div>
-    </>
+    </nav>
   );
 }
